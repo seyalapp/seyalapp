@@ -1,3 +1,15 @@
+
+
+
+* {
+    background-image: url(logofullop.png);
+    background-position: right bottom ;
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+}
+
+
 a{
     text-decoration: none;
     color: #1b1b1b;
@@ -6,9 +18,7 @@ a{
 body {
     color: #1b1b1b;
     font-family: 'Raleway','sans-serif';
-    background-image: url("logo(1).png");
-    background-position: right bottom;
-    background-repeat: no-repeat;
+
     
     
 }
@@ -67,4 +77,8 @@ body {
     text-align: center;
     padding: 15px;
     border-radius: 12px;
+}
+
+.ic a {
+    padding-right: 15px;
 }
