@@ -1,0 +1,70 @@
+a{
+    text-decoration: none;
+    color: #1b1b1b;
+}
+
+body {
+    color: #1b1b1b;
+    font-family: 'Raleway','sans-serif';
+    background-image: url("logo(1).png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.bgimg  {
+    z-index: -1;
+    position: relative;
+
+}
+
+.topname {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.htext {
+    margin-top: 11%;
+    width: 60%;
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+.content {
+    margin: 3em;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+}
+
+.cta {
+    background-color: #1b1b1b;
+    color: #ffffff;
+    width: 100px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 12px;
+    border-color: #1b1b1b;
+    border: 3px solid #1b1b1b;
+}
+
+.cta:hover {
+    border: 4px solid #1b1b1b;
+}
+
+.ncta:hover {
+    border: 4px solid #1b1b1b;
+}
+.ncta {
+    
+    margin-left: 20px;
+    border-color: #1b1b1b;
+    border: 3px solid #1b1b1b;
+    width: 100px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 12px;
+}
