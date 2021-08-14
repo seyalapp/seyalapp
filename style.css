@@ -5,8 +5,9 @@
     background-image: url(logofullop.png);
     background-position: right bottom ;
     background-repeat: no-repeat;
-    
+    /* cursor: url(cur-b.cur) 15 15, auto; */
     background-attachment: fixed;
+    /* transition: all 100ms; */
 }
 
 
@@ -19,6 +20,7 @@ body {
     color: #1b1b1b;
     font-family: 'Raleway','sans-serif';
     
+
     
     
 
@@ -86,6 +88,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* cursor: url(cur-bt.cur) 15 10, auto; */
 
     
 }
@@ -95,7 +98,7 @@ body {
     background-color: #f4f4f4;
     border: 0ch;
     color: #1b1b1b;
-    font-weight: bold;
+    
 }
 
 .m{
@@ -153,9 +156,11 @@ body {
     align-items: center;
     justify-content: center;
     padding: 15px;
+    /* cursor: url(cur-bt.cur) 15 15, auto; */
     
 }
 
 .ic a {
     margin-right: 15px;
 }
+
