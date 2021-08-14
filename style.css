@@ -58,22 +58,27 @@ body {
     padding: 18px;
     border-radius: 12px;
     border-color: #1b1b1b;
+    transition: all 300ms ease-in-out;
+
     
 }
 
-.cta:hover {
+.cta:hover,
+.cta:focus  {
     background-color: #DFF2FF;
     border: 0ch;
     color: #1b1b1b;
 }
 
+
+
 .ncta:hover {
-    background-color: #DFFFEC;
+    border-bottom: 3px;
     border: 0ch;
 }
 .ncta {
     
-    background-color: #F1F9FF;
+    background-color: #fff;
     margin-left: 20px;
     border-color: #1b1b1b;
 
@@ -85,5 +90,5 @@ body {
 }
 
 .ic a {
-    padding-right: 15px;
+    margin-right: 15px;
 }
