@@ -18,6 +18,9 @@ a{
 body {
     color: #1b1b1b;
     font-family: 'Raleway','sans-serif';
+    
+    
+    
 
     
     
@@ -26,6 +29,7 @@ body {
 .bgimg  {
     z-index: -1;
     position: relative;
+    opacity: 75%;
 
 }
 
@@ -43,6 +47,8 @@ body {
 
 .content {
     margin: 3em;
+    margin-top: 25vh;
+    justify-content: center;
 }
 
 .btns {
@@ -58,32 +64,75 @@ body {
     padding: 18px;
     border-radius: 12px;
     border-color: #1b1b1b;
-    transition: all 300ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     
 }
 
 .cta:hover,
 .cta:focus  {
-    background-color: #DFF2FF;
+    background-color: #f4f4f4;
     border: 0ch;
     color: #1b1b1b;
+    font-weight: bold;
 }
 
+.m{
+    
+    border-bottom: 0px solid #DFF2FF;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
 
+@keyframes fadeInAnimation {
+    0% {
+        border-bottom: 0px solid #9cbdd300;
+        opacity: 0;
+    }
+    100% {
+        border-bottom: 7.77px solid #f4f4f4ff;
+        opacity: 100;
+     }
+}
 
-.ncta:hover {
-    border-bottom: 3px;
-    border: 0ch;
+@keyframes fadeInAnimationp {
+    0% {
+        border-bottom: 0px solid #DFFFEC00;
+        
+    }
+    100% {
+        border-bottom: 7.77px solid #f4f4f4FF;
+        
+     }
+}
+
+.p {
+    border-bottom: 7.77px solid #DFFFEC;
+    animation: fadeInAnimationp ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.ncta:hover,
+.ncta:focus {
+    outline-width: 3px;
+    border-bottom: 5px solid #f4f4f4;  
 }
 .ncta {
     
     background-color: #fff;
     margin-left: 20px;
-    border-color: #1b1b1b;
-
+    border-color: #f4f4f4;
+    border-radius: 5px;
+    transition: border-bottom 100ms ease-in-out;
     width: 100px;
+    display: flex;
     text-align: center;
+    align-items: center;
     justify-content: center;
     padding: 15px;
     
