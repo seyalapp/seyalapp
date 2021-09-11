@@ -20,7 +20,7 @@ a{
 
 body {
     color: #1b1b1b;
-    font-family: 'Raleway','sans-serif';
+    font-family: 'Urbanist','sans-serif';
     height: 100vh; 
       
 }
@@ -39,9 +39,9 @@ body {
 
 .htext {
     margin-top: 11%;
-    width: 60%;
-    font-size: 3vw;
-    font-weight: 800;
+    width: 75%;
+    font-size: 2.7vw;
+    font-weight: 900;
 }
 
 .comingsoon {
@@ -120,6 +120,7 @@ body {
     transition: border-bottom 100ms ease-in-out;
     width: 100px;
     display: flex;
+    font-weight: bold;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -166,6 +167,10 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.ncta{
+    font-weight: bold;
 }
 
   }
